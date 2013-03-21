@@ -1,0 +1,30 @@
+<HTML>
+<HEAD>
+<script type="text/javascript">
+a = 5;
+nope = true;
+while(nope)
+{
+  for(var i = 2;i<=20;i++)
+	{
+		if(a%i ==0)
+		{
+			nope = false;
+			//console.log("a = "+a+"\ni = "+i);
+		}
+		else
+		{
+			nope = true;
+			//i = 30;//quebrando o laço for
+			break;
+			console.log("quebrou");
+			console.log(a+" % "+i+" = " + a % i);
+		}
+	}
+	a+=1;
+}
+
+console.log(a-1);
+</script>
+</head>
+</html>
