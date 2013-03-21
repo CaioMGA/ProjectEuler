@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+<script type="text/javascript">
+
+QuadradoDasoma = 0;
+somaDosQuadrados = 0;
+for (var i =1; i <=100; i++)
+{
+  QuadradoDasoma+= i;
+	somaDosQuadrados += Math.pow(i, 2);
+}
+QuadradoDasoma = Math.pow(QuadradoDasoma, 2);
+console.log("Soma dos QUADRADOS: "+somaDosQuadrados+"\nQUADRADO da soma: "+ QuadradoDasoma);
+resultado = QuadradoDasoma - somaDosQuadrados;
+
+console.log(resultado);
+
+
+</script>
+</head>
+</html>
