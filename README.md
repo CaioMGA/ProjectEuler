@@ -7,7 +7,7 @@ Soluções para os desafios propostos no Project Euler: http://projecteuler.net
 - A regra de 1 minuto não foi considerada
 - Eu uso a linguagem que eu estiver a fim, simples assim.
 
-NÃO COPIE OS CÓDIGOS! Leia se você está parado num desafio e depois tente escrever um código do seu jeito.
+NÃO COPIE OS CÓDIGOS! Leia se você estiver parado num desafio e depois tente escrever um código do seu jeito.
 Mas...sabe...você que decide se vale a pena copiar ou NÃO.
 
 ============
