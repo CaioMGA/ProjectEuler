@@ -30,16 +30,16 @@ for i in range(16):
 		if test > result:
 			result = test
 		test = 1
-#B right to left
-for i in range(19, 4, -1):
-	test = 1
-	for j in range(20):
-		for b in range(4):
-			test*= board[i-b][j]
-		if test > result:
-			result = test
-		test = 1
-
+##B right to left
+#for i in range(19, 4, -1):
+#	test = 1
+#	for j in range(20):
+#		for b in range(4):
+#			test*= board[i-b][j]
+#		if test > result:
+#			result = test
+#		test = 1
+#
 #C top to bottom
 for i in range(20):
 	test = 1
@@ -50,17 +50,17 @@ for i in range(20):
 			result = test
 		test = 1
 
-#D Down to top
-for i in range(20):
-	test = 1
-	for j in range(19, 4, -1):
-		for d in range(4):
-			test*= board[i][j-d]
-		if test > result:
-			result = test
-		test = 1
-
-#E top-left to right-bottom
+##D Down to top
+#for i in range(20):
+#	test = 1
+#	for j in range(19, 4, -1):
+#		for d in range(4):
+#			test*= board[i][j-d]
+#		if test > result:
+#			result = test
+#		test = 1
+#
+#E top-left to bottom-right
 for i in range(16):
 	test = 1
 	for j in range(16):
@@ -70,17 +70,17 @@ for i in range(16):
 			result = test
 		test = 1
 
-#F right-bottom to top-left
-for i in range(19, 4, -1):
-	test = 1
-	for j in range(19, 4, -1):
-		for f in range(4):
-			test*= board[i-f][j-f]
-		if test > result:
-			result = test
-		test = 1
-
-#G left-bottom to top-right =============ANSWER IS HERE
+##F right-bottom to top-left
+#for i in range(19, 4, -1):
+#	test = 1
+#	for j in range(19, 4, -1):
+#		for f in range(4):
+#			test*= board[i-f][j-f]
+#		if test > result:
+#			result = test
+#		test = 1
+#
+#G bottom-left to top-right =============ANSWER IS HERE
 for i in range(19, 4, -1):
 	test = 1
 	for j in range(16):
@@ -90,14 +90,14 @@ for i in range(19, 4, -1):
 			result = test
 		test = 1
 
-#H top-right to left-bottom
-for i in range(16):
-	test = 1
-	for j in range(19, 4, -1):
-		for h in range(4):
-			test*= board[i+h][j-h]
-		if test > result:
-			result = test
-		test = 1
-
+##H top-right to left-bottom
+#for i in range(16):
+#	test = 1
+#	for j in range(19, 4, -1):
+#		for h in range(4):
+#			test*= board[i+h][j-h]
+#		if test > result:
+#			result = test
+#		test = 1
+#
 print result
